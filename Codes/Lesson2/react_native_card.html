@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FontAwesome CSS -->
+    <style type="text/css">
+       .card{
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+    
+       }
+       .card img{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+       }
+
+       .card_body{
+            padding: 20px; 
+       }
+       .card_body h3{
+        font-weight: bold;
+        color: rgb(92, 91, 91);
+        text-align: left;
+        margin: 0px;
+       }
+       .card_body h5{
+        margin:0px;
+        font-size: 20px;
+       }
+       .price_box{
+        color:orange;
+
+       }
+       body{
+        background-color: gray;
+       }
+       .right_text{
+        text-align: right;
+       }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- image -->
+        <div>
+            <img src="images/react-native.png">
+        </div>
+        <!-- text --> 
+        <div class="card_body">
+            <h3>Lập trình di động đa nền tảng React Native cập nhật 2021</h3>
+            <div>
+                <div style="width:50%; float:left">
+                    <p> Phòng lab, 14 buổi</p>
+                </div>  
+                <div style="width: 50%; float:right">
+                    <p class="right_text">4.7
+                         <i class="fa-solid fa-star" style="color:yellow; font-size: 40px"></i> 
+                         <i class="fa-regular fa-star" style="color:yellow; font-size: 40px"></i>
+                        </p>
+                </div>  
+
+            </div>
+            <h5 class="price_box">
+                3,900,000đ
+            </h5>
+        </div>
+    </div>
+    <div style="width: 100px; height:100px; background-color:yellow">
+        <svg style="width:100%; height:100%" viewBox="0 0 20 20" 
+        xmlns="http://www.w3.org/2000/svg" 
+        data-svg="twitter"
+        fillcolor="none">
+        
+        <path d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74"></path></svg>
+
+    </div>
+</body>
+</html>
